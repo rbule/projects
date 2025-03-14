@@ -1,0 +1,23 @@
+﻿  Barikada.cpp
+  Brod.cpp
+C:\faks\Objektno\SFML\dz5\dz5\dz5\Barikada.h(7,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  (compiling source file 'Barikada.cpp')
+  
+C:\faks\Objektno\SFML\dz5\dz5\dz5\Brod.h(7,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  (compiling source file 'Brod.cpp')
+  
+  Igra.cpp
+C:\faks\Objektno\SFML\dz5\dz5\dz5\Igra.cpp(2,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  main.cpp
+C:\faks\Objektno\SFML\dz5\dz5\dz5\main.cpp(2,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Metak.cpp
+C:\faks\Objektno\SFML\dz5\dz5\dz5\Metak.h(7,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  (compiling source file 'Metak.cpp')
+  
+  Protivnici.cpp
+C:\faks\Objektno\SFML\dz5\dz5\dz5\Protivnici.h(7,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  (compiling source file 'Protivnici.cpp')
+  
+  Prozor.cpp
+C:\faks\Objektno\SFML\dz5\dz5\dz5\Prozor.cpp(2,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...

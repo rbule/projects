@@ -1,0 +1,22 @@
+Z1 = W1*A0 + b1 -> (256,1) = (256,784) * (784,1)
+A1 = sigmoid(Z1)
+
+Z2 = W2*A1 + b2 -> (128,1) = (128,256)*(256,1)
+A2 = sigmoid(Z2)
+
+Z3 = W3*A2 + b3 -> (62,1) = (62,128) * (128,1)
+A3 = sigmoid(Z3)
+
+C=||A3-y||^2 = ||sigmoid(W3*A2+b3)-y||^2 = ||sigmoid(W3*sigmoid(W2*A1+b2)+b3)||^2 = ||sigmoid(W3*sigmoid(W2*sigmoid(W1*A0+b1)+b2)+b3)||^2
+
+dC/dW3 = dC/dA3 * dA3/dZ3 * dZ3/dW3 -> (62,1) * (62,1) * (128,1)
+
+dC/dW2 = dC/dA2 * dA2/dZ2 * dZ2/dW2 , dC/dA2 = dC/dA3 * dA3/dZ3 * dZ3/dA2  
+
+dC/dW1 = dC/dA1 * dA1/dZ1 * dZ1/dW1 , dC/dA1 = dC/dA3 * dA3/dZ3 * dZ3/dA2 * dA2/dZ2 * dZ2/dA1
+
+dC/db3 = dC/dA3 * dA3/dZ3 * dZ3/db3
+
+dC/db2 = dC/dA2 * dA2/dZ2 * dZ2/db2 
+
+dC/db1 = dC/dA1 * dA1/dZ1 * dZ1/db1

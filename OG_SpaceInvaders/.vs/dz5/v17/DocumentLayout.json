@@ -1,0 +1,248 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Prozor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Prozor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Protivnici.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Protivnici.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Metak.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Metak.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Igra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Igra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Brod.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Brod.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Barikada.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Barikada.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Igra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Igra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Barikada.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Barikada.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Protivnici.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Protivnici.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Brod.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Brod.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Metak.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Metak.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Prozor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EA0B05F-F08D-4322-9444-DEA36A6C98C8}|dz5\\dz5.vcxproj|solutionrelative:dz5\\Prozor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\C_C\u002B\u002B\\Objektno\\SFML\\SFML-2.6.1-windows-vc17-64-bit\\SFML-2.6.1\\include\\SFML\\Graphics\\Glyph.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Brod.h",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Brod.h",
+              "RelativeDocumentMoniker": "dz5\\Brod.h",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Brod.h",
+              "RelativeToolTip": "dz5\\Brod.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-29T12:34:34.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Igra.cpp",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Igra.cpp",
+              "RelativeDocumentMoniker": "dz5\\Igra.cpp",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Igra.cpp",
+              "RelativeToolTip": "dz5\\Igra.cpp",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAAAMAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T12:26:59.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Barikada.h",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Barikada.h",
+              "RelativeDocumentMoniker": "dz5\\Barikada.h",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Barikada.h",
+              "RelativeToolTip": "dz5\\Barikada.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-01T08:17:36.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Glyph.hpp",
+              "DocumentMoniker": "C:\\C_C\u002B\u002B\\Objektno\\SFML\\SFML-2.6.1-windows-vc17-64-bit\\SFML-2.6.1\\include\\SFML\\Graphics\\Glyph.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\C_C\u002B\u002B\\Objektno\\SFML\\SFML-2.6.1-windows-vc17-64-bit\\SFML-2.6.1\\include\\SFML\\Graphics\\Glyph.hpp",
+              "ToolTip": "C:\\C_C\u002B\u002B\\Objektno\\SFML\\SFML-2.6.1-windows-vc17-64-bit\\SFML-2.6.1\\include\\SFML\\Graphics\\Glyph.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C_C\u002B\u002B\\Objektno\\SFML\\SFML-2.6.1-windows-vc17-64-bit\\SFML-2.6.1\\include\\SFML\\Graphics\\Glyph.hpp",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswDAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-31T09:20:26.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Metak.cpp",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Metak.cpp",
+              "RelativeDocumentMoniker": "dz5\\Metak.cpp",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Metak.cpp",
+              "RelativeToolTip": "dz5\\Metak.cpp",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAEEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T13:17:04.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Protivnici.cpp",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Protivnici.cpp",
+              "RelativeDocumentMoniker": "dz5\\Protivnici.cpp",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Protivnici.cpp",
+              "RelativeToolTip": "dz5\\Protivnici.cpp",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAIkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T13:07:38.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prozor.cpp",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Prozor.cpp",
+              "RelativeDocumentMoniker": "dz5\\Prozor.cpp",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Prozor.cpp",
+              "RelativeToolTip": "dz5\\Prozor.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T12:27:08.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Barikada.cpp",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Barikada.cpp",
+              "RelativeDocumentMoniker": "dz5\\Barikada.cpp",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Barikada.cpp",
+              "RelativeToolTip": "dz5\\Barikada.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-01T08:20:57.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Igra.h",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Igra.h",
+              "RelativeDocumentMoniker": "dz5\\Igra.h",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Igra.h",
+              "RelativeToolTip": "dz5\\Igra.h",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-29T12:23:59.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\main.cpp",
+              "RelativeDocumentMoniker": "dz5\\main.cpp",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\main.cpp",
+              "RelativeToolTip": "dz5\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T12:20:27.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Brod.cpp",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Brod.cpp",
+              "RelativeDocumentMoniker": "dz5\\Brod.cpp",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Brod.cpp",
+              "RelativeToolTip": "dz5\\Brod.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T12:41:36.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Protivnici.h",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Protivnici.h",
+              "RelativeDocumentMoniker": "dz5\\Protivnici.h",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Protivnici.h",
+              "RelativeToolTip": "dz5\\Protivnici.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-29T12:47:46.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Metak.h",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Metak.h",
+              "RelativeDocumentMoniker": "dz5\\Metak.h",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Metak.h",
+              "RelativeToolTip": "dz5\\Metak.h",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-29T13:10:27.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Prozor.h",
+              "DocumentMoniker": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Prozor.h",
+              "RelativeDocumentMoniker": "dz5\\Prozor.h",
+              "ToolTip": "C:\\faks\\Objektno\\SFML\\dz5\\dz5\\dz5\\Prozor.h",
+              "RelativeToolTip": "dz5\\Prozor.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-29T12:23:48.684Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
