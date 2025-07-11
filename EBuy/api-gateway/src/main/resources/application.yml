@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: api-gateway
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  datasource:
+    url: jdbc:mariadb://keys-db:3306/keys
+    username: root
+    password: vrlosigurnasifra
+    driver-class-name: org.mariadb.jdbc.Driver
+
+  cloud:
+    gateway:
+      httpclient:
+        response-timeout: 60s
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics, prometheus
+  metrics:
+    tags:
+      application: api-gateway
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+
+
+

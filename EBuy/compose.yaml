@@ -1,0 +1,136 @@
+services:
+
+  # Data plane
+
+  products-db:
+    image: mariadb:11.7-noble
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: products
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+    volumes:
+      - ./products-service-db/init:/docker-entrypoint-initdb.d
+      - ./products-service-db/data:/var/lib/mysql:Z
+    healthcheck:
+      interval: 10s
+      retries: 10
+      timeout: 30s
+      test: [ "CMD", "healthcheck.sh", "--connect", "--innodb_initialized" ]
+
+  keys-db:
+    image: mariadb:11.7-noble
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: keys
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+    volumes:
+      - ./keys-db/init:/docker-entrypoint-initdb.d
+      - ./keys-db/data:/var/lib/mysql:Z
+    healthcheck:
+      interval: 10s
+      retries: 10
+      timeout: 30s
+      test: [ "CMD", "healthcheck.sh", "--connect", "--innodb_initialized" ]
+
+  order-db:
+    image: mariadb:11.7-noble
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: orders
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+    volumes:
+      - ./order-service-db/data:/var/lib/mysql:Z
+    healthcheck:
+      interval: 10s
+      retries: 10
+      timeout: 30s
+      test: [ "CMD", "healthcheck.sh", "--connect", "--innodb_initialized" ]
+
+  products-queue:
+    image: rabbitmq:4.1-management-alpine
+    restart: unless-stopped
+    hostname: products-queue
+    environment:
+      RABBITMQ_DEFAULT_USER: products
+      RABBITMQ_DEFAULT_PASS: ${PRODUCTS_QUEUE_PASSWORD}
+    volumes:
+      - ./products-queue/data:/var/lib/rabbitmq/mnesia
+    healthcheck:
+      interval: 10s
+      retries: 10
+      timeout: 30s
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+
+  products-service:
+    build: ./products-service
+    restart: unless-stopped
+    depends_on:
+      products-db:
+        condition: service_healthy
+      products-queue:
+        condition: service_healthy
+    environment:
+      PRODUCTS_DB_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+    healthcheck:
+      interval: 10s
+      retries: 10
+      timeout: 30s
+      test: "wget -q -S -O - http://localhost:8081/actuator/health 2>&1 | grep UP || exit 1"
+
+  order-service:
+    build: ./order-service
+    restart: unless-stopped
+    depends_on:
+      order-db:
+        condition: service_healthy
+      products-queue:
+        condition: service_healthy
+    environment:
+      ORDER_DB_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+    healthcheck:
+      interval: 10s
+      retries: 10
+      timeout: 30s
+      test: "wget -q -S -O - http://localhost:8081/actuator/health 2>&1 | grep UP || exit 1"
+
+
+  api-gateway:
+    build: ./api-gateway
+    restart: unless-stopped
+    depends_on:
+      keys-db:
+        condition: service_healthy
+    environment:
+      KEYS_DB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+    # jedino api-gateway objavljuje svoj HTTP port na host računalu, ostali containeri nisu dostupni:
+    ports:
+      - "8080:8080"
+    healthcheck:
+      interval: 10s
+      retries: 10
+      timeout: 30s
+      test: "wget -q -S -O - http://localhost:8081/actuator/health 2>&1 | grep UP || exit 1"
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana-data:/var/lib/grafana
+
+volumes:
+  grafana-data:

@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: products-service
+
+  datasource:
+    url: jdbc:mariadb://products-db:3306/products
+    username: root
+    password: vrlosigurnasifra
+    driver-class-name: org.mariadb.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MariaDBDialect
+
+server:
+  port: 8082
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics, prometheus
+  metrics:
+    tags:
+      application: products-service
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+
+spring.rabbitmq.host: products-queue
+spring.rabbitmq.port: 5672
+spring.rabbitmq.username: products
+spring.rabbitmq.password: vrlosigurnasifra

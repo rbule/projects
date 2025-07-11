@@ -1,0 +1,3 @@
+VHOST: /
+QUEUE: q.order-events
+INDEX: v2
