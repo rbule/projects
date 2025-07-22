@@ -2,7 +2,7 @@
 ### The design
 #### API-Gateway
 The API consists of a microservice architecture with an API-gateway which
-also doubles as a Authentication service. For all routes /order and for the route /products/new you need an API key. Rest of the routes don't need any headers
+also doubles as a Authentication service. For all routes /order and for the route /products/new you need an API key. Rest of the routes don't need any headers. You can start it with docker compose up --build --detach
 
 #### Products-Service
 The actual service consists of the route GET /products which returns a json with all products. There is also GET /products/search?query={SOME_QUERY} where you can serach products by their name.

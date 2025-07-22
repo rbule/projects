@@ -32,7 +32,7 @@ public class OrderEntity {
     }
 
     public OrderEntity(Order order) {
-        this.itemId = order.id();
+        this.itemId = order.itemId();
         this.buyerId = order.buyerId();
         this.amountBought = order.amountBought();
         this.rating = order.rating();

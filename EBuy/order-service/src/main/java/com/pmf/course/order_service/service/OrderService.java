@@ -8,8 +8,10 @@ import com.pmf.course.order_service.queue.OrderQueue;
 import com.pmf.course.order_service.repository.OrderRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class OrderService {
@@ -59,6 +61,13 @@ public class OrderService {
         }
 
         throw new OrderNotFoundException();
+    }
+
+    public List<Order> getUsersOrders(Long userId) {
+        List<OrderEntity> orderEntities = orderRepository.findAllByBuyerId(userId);
+        return orderEntities.stream()
+                .map(Order::new)
+                .collect(Collectors.toList());
     }
 
 }
