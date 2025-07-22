@@ -42,6 +42,9 @@ The route needs an API-key with the header key "Authorization".The API key value
     "rating": your_rating
 } </pre>
 It will return the created order.
+#### GET /order/myOrders
+The route needs an API-key with the header key "Authorization". The API key value is of format "App {YOUR_API_KEY}". It returns all orders made by the user associated with the API key
+
 #### GET /order/status/{id}
 The route needs an API-key with the header key "Authorization".The API key value is of format "App {YOUR_API_KEY}".
 The PathVariable is the id which you are given after making an order.
